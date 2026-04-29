@@ -21,7 +21,7 @@ This project uses machine learning algorithms to analyze health-related paramete
 
 ## 📊 Dataset
 
-- Dataset: PIMA Indians Diabetes Dataset
+- Dataset: Search PIMA Indians Diabetes Dataset(Kaggle)
 - Features include:
   - Pregnancies
   - Glucose Level
@@ -31,7 +31,7 @@ This project uses machine learning algorithms to analyze health-related paramete
   - BMI
   - Diabetes Pedigree Function
   - Age
-
+  - Placed here: data/diabetes.csv
 ---
 
 ## ⚙️ Tech Stack
@@ -89,7 +89,6 @@ Diabetes-Prediction/
 ├── requirements.txt
 └── README.md
 
-
 ---
 
 ## 🚀 Installation & Setup
@@ -102,6 +101,16 @@ cd Diabetes-Prediction
 2. Install dependencies: pip install -r requirements.txt
 
 3. Run the project: python main.py
+
+Train model: python src/train.py
+
+## Run prediction:
+python src/predict.py
+
+## Run web app:
+streamlit run app.py
+
+---
 
 💡 Usage
 Input patient data (manually or via script)
